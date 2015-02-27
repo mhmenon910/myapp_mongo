@@ -1,5 +1,6 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
+#http://media.railscasts.com/assets/subscriptions/VvoC1Ro5NBnL3gCZvFcxjw/videos/403-dynamic-forms.mp4
 
   # GET /products
   # GET /products.json
